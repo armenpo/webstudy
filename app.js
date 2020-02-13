@@ -1,14 +1,7 @@
 import express from "express";
+import { handleHome, handleLogin } from "./controller/homeController";
 
 const app = express();
-
-const handleHome = (req, res) => {
-  res.send("HOME!");
-};
-
-const handleLogin = (req, res) => {
-  res.send("Login");
-};
 
 app.get("/", handleHome);
 app.get("/login", handleLogin);
