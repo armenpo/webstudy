@@ -1,0 +1,28 @@
+{
+  "name": "webstudy",
+  "version": "1.0.0",
+  "description": "web_study for dongaUniv.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js --delay 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armenpo/webstudy.git"
+  },
+  "author": "armenpo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armenpo/webstudy/issues"
+  },
+  "homepage": "https://github.com/armenpo/webstudy#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
