@@ -1,9 +1,8 @@
 import express from "express";
-import { handleHome, handleLogin } from "./controller/homeController";
+import homeRouter from "./router/homeRouter";
 
 const app = express();
 
-app.get("/", handleHome);
-app.get("/login", handleLogin);
+app.use("/", homeRouter);
 
 export default app;
